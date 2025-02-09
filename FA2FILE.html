@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link href="stylesFA2.css">
+</head>
+<body>
+  <script src ="script4.js"></script>
+  <h2>Simple Calculator</h2>
+    <div class="calculator">
+        <h3>This page will accept two number inputs and will solve for its answer according to the arithmetic operation clicked.</h3>
+		<p>Instructions: Enter two numbers on the text box, then click an operation button. </p>
+        <input type="number" id="num1" placeholder="Number 1">
+        <input type="number" id="num2" placeholder="Number 2">
+        <br>
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('-')">-</button>
+        <button onclick="calculate('*')">*</button>
+        <button onclick="calculate('/')">/</button>
+        <button onclick="calculate('%')">%</button>
+        <p id="result">Results will be displayed here.</p>
+    </div>
+</body>
+</html>
